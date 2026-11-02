@@ -1,0 +1,4 @@
+g5i1yZi2IJBA9ybm
+24z148_db_user
+mongodb+srv://24z148_db_user:g5i1yZi2IJBA9ybm@cluster0.5gcvwo8.mongodb.net/
+API-AQ.Ab8RN6IV_Bv4XrUYvo8S-dGSPxxyh2649h4B80RYT3j_8VE1qA

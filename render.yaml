@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ai-mystery-room
+    runtime: node
+    buildCommand: npm ci && npm --prefix client run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.0-flash
+      # Add GEMINI_API_KEY in the Render dashboard if AI case generation is wanted.
